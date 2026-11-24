@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CampusLedger | Registrar Intelligence</title>
+<link rel="stylesheet" href="style.css">
+<script defer src="data/dataset.js"></script>
+<script defer src="app.js"></script>
+</head>
+<body>
+<aside class="sidebar">
+<div class="brand"><div class="mark" aria-hidden="true">CL</div><div><strong>CampusLedger</strong><small>Registrar Intelligence</small></div></div>
+<nav aria-label="Dashboard pages" id="navigation"></nav>
+<div class="sidebar-footer"><span class="dot"></span> University portfolio demo<br><small>Synthetic dataset · Offline</small></div>
+</aside>
+<main>
+<header><div><div class="eyebrow">OFFICE OF THE REGISTRAR</div><h1 id="page-title"></h1><p id="page-description"></p></div><div id="snapshot" class="snapshot"></div></header>
+<section class="filters" aria-label="Dashboard filters">
+<label>Financial year<select id="fy"></select></label>
+<label>Period<select id="period"><option value="ytd">Matched FYTD</option><option value="full">Available FY</option></select></label>
+<label>School<select id="school"></select></label>
+<label>Programme<select id="programme"></select></label>
+<label>Service type<select id="service"></select></label>
+<button id="reset" type="button" class="reset">Reset</button>
+</section>
+<div id="scope" class="scope"></div>
+<div id="content"></div>
+</main>
+</body>
+</html>
