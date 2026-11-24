@@ -42,6 +42,13 @@ Extract the ZIP and open `index.html` in a browser. No installation, server or i
 - The action register stores demo follow-up statuses in browser storage where available. It has no shared assignments, notifications or writeback to a university system.
 - The Excel workbook contains the same raw demo records as the static site data. Workbook edits do not update the site automatically.
 
+<img width="1348" height="1452" alt="05-actions" src="https://github.com/user-attachments/assets/6bd9206d-a190-4583-a1bf-9c21da2577b9" />
+<img width="1348" height="1815" alt="04-admissions" src="https://github.com/user-attachments/assets/c56bb25c-5c0e-488e-b517-b05cb796bbcc" />
+<img width="1348" height="1282" alt="03-academic" src="https://github.com/user-attachments/assets/fa7b7a01-96ba-4702-b2f9-8cebe58c4b53" />
+<img width="1348" height="1294" alt="02-services" src="https://github.com/user-attachments/assets/74d11d2a-cc91-41ba-87a9-7a0c5aebe480" />
+<img width="1363" height="1384" alt="01-overview" src="https://github.com/user-attachments/assets/c6bca20a-3077-4490-ad9b-30b9204047cf" />
+
+
 ## Reproduce the demo data
 
 Run `python3 scripts/generate.py` from the project directory. This regenerates `data/dataset.js` from a fixed random seed. The supplied workbook was generated with the `@oai/artifact-tool` runtime using `scripts/export-workbook.mjs`; the workbook is bundled for users without that runtime.
